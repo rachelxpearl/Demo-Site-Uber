@@ -22,7 +22,16 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108820803-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-108820803-1');
+</script>
   </head>
 
   <body id="page-top">
@@ -47,7 +56,7 @@
               <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Sign Up</a>
             </li>
           </ul>
         </div>
@@ -297,8 +306,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Tell us about your latest ride!</h3> <!-- added subheading -->
+            <h2 class="section-heading">Sign Up</h2>
+            <h3 class="section-subheading text-muted">Create an account right now and receive an email for your first ride free!</h3> <!-- added subheading -->
           </div>
         </div>
         <div class="row">
@@ -321,14 +330,14 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" placeholder="How did you hear about Uber?*" required data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
+                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Sign Me Up</button>
                 </div>
               </div>
             </form>
